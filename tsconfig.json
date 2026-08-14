@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2017"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noEmit": true,
+    "ignoreDeprecations": "6.0"
+  }
+}

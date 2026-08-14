@@ -1,0 +1,17 @@
+{
+  "name": "live2",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix frontend run start",
+    "start:frontend": "cd frontend && set PORT=3001 && npm start",
+    "start:backend": "npm --prefix backend run start",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "build": "npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "firebase": "^12.16.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
