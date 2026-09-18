@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --royal-gold: #d4af37;
+  --royal-amber: #f2c94c;
+  --royal-navy: #0f172a;
+  --royal-ink: #111827;
+  --royal-silver: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f5eb 0%, #fdf7e8 45%, #f3ebd4 100%);
+  color: var(--royal-ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #111827;
+}

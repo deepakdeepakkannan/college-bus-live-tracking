@@ -1,0 +1,20 @@
+{
+  "name": "college-bus-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the College Bus Live Tracker System",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1",
+    "socket.io": "^4.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
